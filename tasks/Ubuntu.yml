@@ -1,13 +1,6 @@
 ---
 # tasks file for php (Ubuntu specific)
 
-- name: Add PHP 5.4 PPA
-  apt_repository: >
-    repo='ppa:ondrej/php5-oldstable'
-    state=present
-  when: php_version == 5.4
-  tags: php
-
 - name: Add PHP 5.5 PPA
   apt_repository: >
     repo='ppa:ondrej/php5'

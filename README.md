@@ -11,9 +11,9 @@ This role requires Ansible 1.4 or higher.
 Role Variables
 --------------
 
-| Name        | Default | Description                                 |
-|-------------|---------|---------------------------------------------|
-| php_version | 5.6     | Version of PHP to install (5.4, 5.5 or 5.6) |
+| Name        | Default | Description                            |
+|-------------|---------|----------------------------------------|
+| php_version | 5.6     | Version of PHP to install (5.5 or 5.6) |
 
 Dependencies
 ------------
