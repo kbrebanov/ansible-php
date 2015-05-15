@@ -1,0 +1,5 @@
+---
+# vars file for php (Ubuntu specific)
+
+php_packages:
+  - php5
