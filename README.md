@@ -23,11 +23,18 @@ None
 Example Playbook
 ----------------
 
-Install PHP
+Install latest version of PHP
 ```
 - hosts: all
   roles:
     - { role: kbrebanov.php }
+```
+
+Install previous version of PHP
+```
+- hosts: all
+  roles:
+    - { role: kbrebanov.php, php_version: 5.5}
 ```
 
 License
